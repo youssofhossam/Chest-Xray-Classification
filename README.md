@@ -48,7 +48,8 @@ Chest-Xray-Classification/
 │   ├── model.py          # CheXNet model definition
 │   ├── data_utils.py     # Dataset class + KaggleHub auto-download
 │   ├── train.py          # Training loop with checkpoint resume
-│   └── evaluate.py       # AUC-ROC evaluation + ROC curves + Grad-CAM
+│   ├── evaluate.py       # AUC-ROC evaluation + ROC curves + Grad-CAM
+│   └── config.py         # Main paths
 ├── Notebooks/            # Experiment notebooks
 ├── images/               # Output visualizations
 ├── requirements.txt
