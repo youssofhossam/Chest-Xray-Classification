@@ -12,10 +12,6 @@ import os
 from data_utils import ChestXRaysDataset
 from model import ChexNet
 
-dataset_main_path = '/teamspace/studios/this_studio/.cache/kagglehub/datasets/nih-chest-xrays/data/versions/3'
-csv_path = '/teamspace/studios/this_studio/.cache/kagglehub/datasets/nih-chest-xrays/data/versions/3/Data_Entry_2017.csv'
-test_list_path = '/teamspace/studios/this_studio/.cache/kagglehub/datasets/nih-chest-xrays/data/versions/3/test_list.txt'
-
 device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 print(f"Ready to train on: {device}")
 
