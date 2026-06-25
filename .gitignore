@@ -1,5 +1,3 @@
-*.pth
-*.pt
 
 .cache/
 Dataset/
