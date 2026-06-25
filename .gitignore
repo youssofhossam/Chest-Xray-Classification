@@ -1,0 +1,9 @@
+*.pth
+*.pt
+
+.cache/
+Dataset/
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
