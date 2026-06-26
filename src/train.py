@@ -45,7 +45,7 @@ def epoch_val(model, val_loader, loss_function):
     return total_loss / len(val_loader)
             
 
-def train(n_classes, batch_size, model_name, train_df, val_df, lr, num_epochs):
+def train(n_classes, batch_size, model_name, train_df, val_df, lr, num_epochs, dataset_main_path):
     if model_name == 'ChexNet':
         model = ChexNet(n_classes).to(device)
         model = torch.nn.DataParallel(model).to(device)
