@@ -164,5 +164,5 @@ This allows visual verification that the model is attending to clinically releva
 ---
 
 <div align="center">
-  Made with ❤️ &nbsp;·&nbsp; PyTorch &nbsp;·&nbsp; DenseNet-121 &nbsp;·&nbsp; NIH ChestX-ray14
+  Made with &nbsp;·&nbsp; PyTorch &nbsp;·&nbsp; DenseNet-121 &nbsp;·&nbsp; NIH ChestX-ray14
 </div>
