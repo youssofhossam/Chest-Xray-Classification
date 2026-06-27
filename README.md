@@ -15,7 +15,7 @@ PyTorch reimplementation of the Stanford CheXNet paper — detecting **14 thorac
 
 ---
 
-## 📄 Paper
+## Paper
 
 > **CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning**
 > Rajpurkar et al., Stanford ML Group — [arXiv:1711.05225](https://arxiv.org/abs/1711.05225)
@@ -24,7 +24,7 @@ The paper fine-tunes a DenseNet-121 on the NIH ChestX-ray14 dataset and surpasse
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The model wraps a pretrained **DenseNet-121** backbone, replacing the final classification head with a single linear layer projecting to 14 outputs — one per pathology.
 
@@ -40,7 +40,7 @@ The model wraps a pretrained **DenseNet-121** backbone, replacing the final clas
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Chest-Xray-Classification/
@@ -58,7 +58,7 @@ Chest-Xray-Classification/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 **NIH ChestX-ray14** — 112,120 frontal-view chest X-rays from 30,805 unique patients, weakly labeled with 14 pathology classes via NLP-mined radiology reports.
 
@@ -75,7 +75,7 @@ The dataset is auto-downloaded via `kagglehub` on first run. Train/val splits ar
 
 ---
 
-## ⚙️ Training Details
+## Training Details
 
 | Hyperparameter | Value |
 |----------------|-------|
@@ -89,7 +89,7 @@ Training automatically resumes from the latest checkpoint if one exists.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 **1. Clone**
 
@@ -118,7 +118,7 @@ python evaluate.py
 
 ---
 
-## 📊 Results
+## Results
 
 Models are evaluated per-class using **AUC-ROC**, consistent with the original paper. A score of **1.0** is perfect; **0.5** is random chance.
 
@@ -138,7 +138,7 @@ This allows visual verification that the model is attending to clinically releva
 
 ---
 
-## 📚 References
+## References
 
 ```bibtex
 @article{rajpurkar2017chexnet,
